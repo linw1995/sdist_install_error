@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sdist_install_error"
+version = "0.1.0"
+description = ""
+authors = ["林玮 <linw1995@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[tool.intreehooks]
+build-backend = "build"
+
+[build-system]
+requires = ["intreehooks", "poetry"]
+build-backend = "intreehooks:loader"
